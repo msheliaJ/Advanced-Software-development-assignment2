@@ -35,5 +35,12 @@ int main() {
     }
     file.close();
 
+    #ifdef _DEBUG
+        std::cout << "[DEBUG] Loaded " << students.size() << " students:" << std::endl;
+        for (const STUDENT_DATA& s : students) {
+        std::cout << s.firstName << " " << s.lastName << std::endl;
+        }
+    #endif
+
     return 1;
 }
