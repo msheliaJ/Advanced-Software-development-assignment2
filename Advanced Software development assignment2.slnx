@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Advanced Software development assignment2/Advanced Software development assignment2.vcxproj" />
+</Solution>
